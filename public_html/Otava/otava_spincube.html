@@ -1,0 +1,641 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <!--<AdSanomat>-->
+        <!--<AdHTML>-->
+        <div id="KF04RZ211_ad_container">
+            <div id="KF04RZ211_imp_counter" style="position:absolute;z-index:0;bottom:0px;left:0px;width:1px;height:1px;margin:0px;padding:0px;overflow:hidden;"></div>
+            <div id="KF04RZ211_cube_wrapper">
+                <div class="KF04RZ211_side" id="KF04RZ211_side_1" style="display:block; margin:0px;padding:0px;z-index:99999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; backface-visibility: hidden;">
+                    <canvas id="KF04RZ211_canvas_0" width="580" height="580" style="margin:0px;padding:0px;z-index:99999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d;-webkit-backface-visibility:hidden"></canvas>
+                </div>
+                <div class="KF04RZ211_side"  id="KF04RZ211_side_2" style="display:block; margin:0px;padding:0px;z-index:999999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d;">
+                    <canvas id="KF04RZ211_canvas_1" width="580" height="580" style="margin:0px;padding:0px;z-index:99999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d;-webkit-backface-visibility:hidden"></canvas>
+                </div>
+                <div class="KF04RZ211_side" id="KF04RZ211_side_3" style="display:block; margin:0px;padding:0px;z-index:999999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d">
+                    <canvas id="KF04RZ211_canvas_2" width="580" height="580" style="margin:0px;padding:0px;z-index:99999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d;-webkit-backface-visibility:hidden"></canvas>
+                </div>
+                <div class="KF04RZ211_side" id="KF04RZ211_side_4" style="display:block; margin:0px;padding:0px;z-index:999999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d">
+                    <canvas id="KF04RZ211_canvas_3" width="580" height="580" style="margin:0px;padding:0px;z-index:99999;position:absolute;top:0px;left:0px;width:300px;height:300px;-webkit-transform-style: preserve-3d;-webkit-backface-visibility:hidden"></canvas>
+                </div>
+            </div>
+        </div>
+        <!--</AdHTML>-->
+
+        <script>
+            /**<AdScript>**/
+            var KF04RZ211Anim = document.createElement("style");
+            KF04RZ211Anim.textContent = "#KF04RZ211_ad_container div {background-color:transparent; border-top:none;border-bottom:none;padding:0px}";
+            document.getElementsByTagName('head')[0].appendChild(KF04RZ211Anim);
+            var p3000Anim = document.createElement("style");
+            p3000Anim.textContent = "#KF04RZ211_ad_div div {margin-left:auto !important; margin-right:auto !important;padding:0px}";
+            document.getElementsByTagName('head')[0].appendChild(p3000Anim);
+            var node1 = document.getElementById("KF04RZ211_ad_div");
+            node1 = node1.parentNode;
+            if (node1.id == "ad-top")
+                document.getElementById("ad-top").removeAttribute("id");
+            var node3 = document.getElementById("KF04RZ211_ad_div");
+            for (var i = 0; i < 4; i++) {
+                node3 = node3.parentNode;
+                if (node3 == null)
+                    break;
+                else if (node3.id == "ad_top") {
+                    node3.removeAttribute("id");
+                    break;
+                }
+            }
+            var nodePadding = document.getElementById("KF04RZ211_ad_div");
+            if (nodePadding.parentNode.parentNode.id == "global_ad_id1")
+                nodePadding.parentNode.parentNode.style.padding = "0px";
+            var node2 = document.getElementById("KF04RZ211_ad_div");
+            for (var i = 0; i < 4; i++) {
+                node2 = node2.parentNode;
+                if (node2 == null)
+                    break;
+                else if (node2.className != null) {
+                    if (node2.className == "adcont") {
+                        node2.style.maxWidth = "500px";
+                        break;
+                    }
+                    if (node2.className == "ad") {
+                        node2.style.width = "auto";
+                    }
+                }
+            }
+
+            var KF04RZ211AdContainer = document.getElementById("KF04RZ211_ad_container");
+            var KF04RZ211CubeWrapper = document.getElementById("KF04RZ211_cube_wrapper");
+            var KF04RZ211Script;
+            var KF04RZ211SpinCube;
+            var KF04RZ211_CI = ['Click_Image1_Link', 'Click_Image2_Link', 'Click_Image3_Link', 'Click_Image4_Link', 'Click_Image5_Link', 'Click_Image6_Link', 'Click_Image7_Link', 'Click_Image8_Link', 'Click_Image9_Link', 'Click_Image10_Link'];
+            var KF04RZ211_CI_link = "http://www.suomalainen.com/webapp/wcs/stores/servlet/Content_10151_10051_-77?catid=10&id=2043&shownewsmenu=1&box=generalnews&utm_source=IS%20mobiilikuutio&utm_medium=net&utm_campaign=20150326ISmobiiliJannitysta";
+            var KF04RZ211ActImage = 0;
+            var KF04RZ211MapToggled = false;
+            var KF04RZ211Img = [];
+            var KF04RZ211_Img = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg'];
+            var KF04RZ211_NoOfImages = KF04RZ211_Img.length;
+            var KF04RZ211ActSide = 0;
+            var KF04RZ211RotAng = 0;
+            var KF04RZ211Canvas = [];
+            var KF04RZ211CanvasCtx = [];
+            var KF04RZ211LI = 0;
+            var KF04RZ211checkIntial = false;
+            var KF04RZ211check2D = false;
+            var KF04RZ211AutoSpin;
+
+            var KF04RZ211Random = Math.floor(Math.random() * 99999999);
+            /*var KF04RZ211_Impmain1 = 'http://track.adform.net/adfserve/?bn=5687213;1x1inv=1;srctype=3;ord=' + KF04RZ211Random;
+             document.getElementById('KF04RZ211_imp_counter').innerHTML = "<img  border='0' width='1' height='1' src='" + KF04RZ211_Impmain1 + "'/>";*/
+
+
+            for (var i = 0; i < KF04RZ211_NoOfImages; i++)
+            {
+                KF04RZ211Img[i] = new Image();
+                if (i < 2 || i == KF04RZ211_NoOfImages - 1) {
+                    KF04RZ211Img[i].onload = KF04RZ211ImgLoaded;
+                    KF04RZ211Img[i].src = "http://mds3.pliing.com/fi/img_q/sanoma/otava/150324/" + KF04RZ211_Img[i];
+                }
+            }
+            function KF04RZ211ImgLoaded() {
+                KF04RZ211LI++;
+                if (KF04RZ211LI === 3)
+                    KF04RZ211Init();
+            }
+            function KF04RZ211Init() {
+                KF04RZ211Img[2].src = "http://mds3.pliing.com/fi/img_q/sanoma/otava/150324/" + KF04RZ211_Img[2];
+                if (KF04RZ211_NoOfImages > 4)
+                    KF04RZ211Img[3].src = "http://mds3.pliing.com/fi/img_q/sanoma/otava/150324/" + KF04RZ211_Img[3];
+                if (KF04RZ211_NoOfImages > 5)
+                    KF04RZ211Img[KF04RZ211_NoOfImages - 2].src = "http://mds3.pliing.com/fi/img_q/sanoma/otava/150324/" + KF04RZ211_Img[KF04RZ211_NoOfImages - 2];
+                if (KF04RZ211_NoOfImages > 6)
+                    KF04RZ211Img[KF04RZ211_NoOfImages - 3].src = "http://mds3.pliing.com/fi/img_q/sanoma/otava/150324/" + KF04RZ211_Img[KF04RZ211_NoOfImages - 3];
+
+                for (var i = 0; i < 4; i++) {
+                    KF04RZ211Canvas[i] = document.getElementById("KF04RZ211_canvas_" + i);
+                    KF04RZ211CanvasCtx[i] = KF04RZ211Canvas[i].getContext("2d");
+                    if (i < 2)
+                        KF04RZ211CanvasCtx[i].drawImage(KF04RZ211Img[i], 0, 0, 580, 580);
+                    else if (i == 3)
+                        KF04RZ211CanvasCtx[i].drawImage(KF04RZ211Img[KF04RZ211_NoOfImages - 1], 0, 0, 580, 580);
+                }
+                KF04RZ211AddEventListeners();
+                KF04RZ211Scale();
+                KF04RZ211SpinCube = new KF04RZ211Cube(KF04RZ211CubeWrapper, -149);
+                var sides = [];
+                for (var i = 1; i < 5; i++) {
+                    sides.push(document.getElementById("KF04RZ211_side_" + i));
+                }
+                var style = "#KF04RZ211_ad_container { position: relative; display: block; width: 320px; height: 320px; -webkit-transform: translate3d(0,0,0); -webkit-transform-style: preserve-3d; overflow: hidden;padding:none !important;background-color: transparent !important;border-top: none !important;border-bottom: none !important; } #KF04RZ211_cube_wrapper { position: absolute; display: block; width: 300px; height: 300px; left: 10px; top: 10px; -webkit-perspective: 800px; -webkit-transform-style: preserve-3d; z-index: 10000;padding:none !important;background-color: transparent !important;border-top: none !important;border-bottom: none !important; } .KF04RZ211_touch_area { position: absolute; display: block; width: 100%; height: 100%; z-index: 10; -webkit-perspective: 800px;padding:none !important;background-color: transparent !important;border-top: none !important;border-bottom: none !important; } .KF04RZ211_cube { position: absolute; display: block; width: 300px; height: 300px; -webkit-transform-style: preserve-3d; -webkit-transition: all 0.2s linear; -ms-transition: all 0.2s linear; transition: all 0.2s linear; padding:none !important;background-color: transparent !important;border-top: none !important;border-bottom: none !important;} .KF04RZ211_side { position: absolute; display: block; width: 300px; height: 300px; backface-visibility: hidden; -webkit-transition: all 0.2s linear; -ms-transition: all 0.2s linear; transition: all 0.2s linear;padding:none !important;background-color: transparent !important;border-top: none !important;border-bottom: none !important; }";
+                KF04RZ211SpinCube.setLinks([""]);
+                KF04RZ211SpinCube.setEvents(["http://fi.pliing.com/PliingAd/Event?id=31250011&userAdId=**userAdId&callback=KF04RZ211Resp", "http://fi.pliing.com/PliingAd/Event?id=31250012&userAdId=**userAdId&callback=KF04RZ211Resp", "http://fi.pliing.com/PliingAd/Event?id=31250013&userAdId=**userAdId&callback=KF04RZ211Resp", "http://fi.pliing.com/PliingAd/Event?id=31250014&userAdId=**userAdId&callback=KF04RZ211Resp", "http://fi.pliing.com/PliingAd/Event?id=31250015&userAdId=**userAdId&callback=KF04RZ211Resp"]);
+                KF04RZ211SpinCube.setOnClickExceptions(["KF04RZ211_sendSMS", "KF04RZ211_sendEmail", "KF04RZ211_call", "KF04RZ211_showMap", "KF04RZ211_collapse", "KF04RZ211_collapseImg", "KF04RZ211_map_canvas"]);
+                KF04RZ211SpinCube.setSwipeUrl("http://fi.pliing.com/PliingAd/Event?id=31250000&userAdId=**userAdId&callback=KF04RZ211Resp");
+                KF04RZ211SpinCube.setSupportedPrefixes(["webkit", "ms"]);
+                KF04RZ211SpinCube.init(style, sides);
+                KF04RZ211AutoSpin = window.setTimeout(function() {
+                    if (KF04RZ211check2D) {
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 100);
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 200);
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 300);
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 400);
+                    } else {
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 10);
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 14);
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 18);
+                        window.setTimeout(function() {
+                            KF04RZ211SpinCube.fullRotationInitial(true);
+                        }, 22);
+                    }
+                }, 800);
+
+            }
+            function KF04RZ211Resp(xmlData) {
+                document.getElementsByTagName('head')[0].removeChild(KF04RZ211Script);
+            }
+            function KF04RZ211SendSMS() {
+                document.getElementById("KF04RZ211_img_1").style.opacity = "0";
+                document.getElementById("KF04RZ211_input_con1").style.visibility = "hidden";
+                document.getElementById("KF04RZ211_img_conf1").style.opacity = "1";
+                document.getElementById("KF04RZ211_img_conf1").style.visibility = "visible";
+                event.stopPropagation ? event.stopPropagation() : window.event.cancelBubble = true;
+            }
+
+            function KF04RZ211SendEmail() {
+                document.getElementById("KF04RZ211_img_2").style.opacity = "0";
+                document.getElementById("KF04RZ211_input_con2").style.visibility = "hidden";
+                document.getElementById("KF04RZ211_img_conf2").style.opacity = "1";
+                document.getElementById("KF04RZ211_img_conf2").style.visibility = "visible";
+                event.stopPropagation ? event.stopPropagation() : window.event.cancelBubble = true;
+            }
+
+            function KF04RZ211AddEventListeners() {
+                window.addEventListener("resize", KF04RZ211Scale);
+                window.addEventListener("orientationchange", KF04RZ211Scale);
+            }
+            function KF04RZ211Loadlink() {
+                var p = {};
+                p.param = "&p1=" + encodeURIComponent(KF04RZ211_CI_link);
+                if (typeof (mraid) !== 'undefined') {
+                    adsscore_track[('KF04RZ211').replace("p", "")].AdssSendEventMraid(KF04RZ211_CI[KF04RZ211ActImage], p);
+                } else {
+                    adsscore_track[('KF04RZ211').replace("p", "")].AdssSendEvent(KF04RZ211_CI[KF04RZ211ActImage], p);
+                }
+            }
+            function KF04RZ211Scale() {
+                var h = KF04RZ211AdContainer.parentNode.parentNode.offsetWidth;
+                var scale = h / 320;
+                var adCont = KF04RZ211AdContainer;
+                var adDisp = KF04RZ211CubeWrapper;
+                adCont.style.width = "" + Math.floor(300 * scale) + "px";
+                adCont.style.height = "" + Math.floor(300 * scale) + "px";
+                var ua = navigator.userAgent.toLowerCase();
+                if (ua.indexOf("webkit") > -1)
+                    adDisp.style.webkitTransform = "scale3d(" + scale + "," + scale + "," + scale + ")";
+                else {
+                    if (ua.indexOf("msie 1") > -1 || ua.indexOf("firefox") > -1)
+                        adDisp.style.transform = "scale3d(" + scale + "," + scale + "," + scale + ")";
+                    else if (ua.indexOf("msie 9") > -1)
+                        adDisp.style.msTransform = "scale(" + scale + "," + scale + ")";
+                    else
+                        adDisp.style.transform = "scale(" + scale + "," + scale + ")";
+                }
+                adDisp.style.left = "" + (Math.floor(150 * scale) - 150) + "px";
+                adDisp.style.top = "" + (Math.floor(150 * scale) - 150) + "px";
+            }
+            function KF04RZ211Cube(parent, zOffset) {
+                var self = this;
+                this.parent = parent;
+                this.initialized = false;
+                this.zOffset = zOffset;
+                this.width;
+                this.height;
+                this.setTimeCounter;
+
+                this.cube;
+                this.touchArea;
+                this.sides = [];
+                this.currentSide = 0;
+                this.rot = 0;
+                this.endX = 0, this.endY = 0;
+                this.touching = false;
+                this.fallbackSwapInterval;
+                this.isTrident = navigator.userAgent.toLowerCase().indexOf("trident") > -1;
+                if (this.isTrident) {
+                    this.isAndroid = false;
+                    this.is2D = false;
+                    this.isIOS = false;
+                    this.isWebkit = false;
+                } else {
+                    this.isWebkit = navigator.userAgent.toLowerCase().indexOf("webkit") > -1;
+                    this.isAndroid = navigator.userAgent.toLowerCase().indexOf("android") > -1;
+                    this.an2 = navigator.userAgent.toLowerCase().indexOf("android 2.") > -1;
+                    this.an40 = navigator.userAgent.toLowerCase().indexOf("android 4.0") > -1;
+                    this.an41 = navigator.userAgent.toLowerCase().indexOf("android 4.1") > -1;
+                    this.an42 = navigator.userAgent.toLowerCase().indexOf("android 4.2") > -1;
+                    this.an43 = navigator.userAgent.toLowerCase().indexOf("android 4.3") > -1;
+                    this.is2D = this.an2 || this.an41 || this.an42 || this.an43 || this.an40;
+                    this.isIOS = (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false);
+                }
+                KF04RZ211check2D = this.is2D;
+                this.isFallback;
+                this.version = 0;
+                this.onClickExceptions = [];
+                this.supportedPrefixes = ["webkit", "moz", "ms", "o"];
+                this.links = [];
+
+                this.fallbackSwapDelay = 4500;
+
+                /* Initializes the SpinCube. 
+                 * If an array containing 4 elements is supplied, those 4 elements will 
+                 * be moved from their position in the DOM into the Cube object container and used as the cube faces
+                 * If no array is supplied, 4 DIVs will be generated*/
+                this.init = function(styleString, sideArray) {
+                    this.isFallback = !this.detectFeature("transform");
+
+                    if (styleString) {
+                        var style = document.createElement("style");
+                        style.textContent = styleString;
+                        document.getElementsByTagName("head")[0].appendChild(style);
+                    }
+
+                    this.touchArea = this.createElement("div", this.parent, "KF04RZ211_touch_area", "KF04RZ211_touch_area");
+                    if (typeof (mraid) !== 'undefined' || this.isAndroid || this.isIOS) {
+                        this.touchArea.addEventListener("click", KF04RZ211Loadlink);
+                    }
+                    if (this.is2D)
+                        this.parent.style.overflow = "hidden";
+                    if (!this.is2D)
+                        this.applyStyle(this.touchArea, "transform", "translate3d(0px, 0px, 1px)");
+                    if (typeof (mraid) === 'undefined') {
+                        this.touchArea.style.msTouchAction = "pan-y";
+                    }
+                    /*console.log(this.isFallback);*/
+                    if (this.is2D) {
+                        this.touchArea.innerHTML = '<div id="KF04RZ211_swipe" style="display:block;margin:0px;padding:0px;z-index:110880;position:absolute;top:120px;left:58px;width:189px;height:50px;opacity:0.9;translate3d(0px,0px,10px);"><img src="http://mds3.pliing.com/common/fi/swipe.png" style="display:block;margin:0px;padding:0px;position:absolute;width:184px;height:59px;opacity:0.8;translate3d(0px,0px,0px);"></div>';
+                    } else
+                        this.touchArea.innerHTML = '<div id="KF04RZ211_swipe" style="display:block;margin:0px;padding:0px;z-index:110880;position:absolute;top:120px;left:58px;width:189px;height:50px;opacity:0.9;translate3d(0px,0px,10px);"><img src="http://mds3.pliing.com/common/fi/swipe.svg" style="display:block;margin:0px;padding:0px;position:absolute;width:184px;height:59px;opacity:0.8;translate3d(0px,0px,0px);"></div>';
+
+                    this.cube = this.createElement("div", (this.isTrident || this.isAndroid) ? this.touchArea : this.parent, "KF04RZ211_cube");
+
+                    var style = window.getComputedStyle(this.cube);
+                    this.width = parseInt(style.width);
+                    this.height = parseInt(style.height);
+                    if (this.isIOS) {
+                        this.applyStyle(this.cube, "transformOrigin", "50% 50% " + this.zOffset + "px");
+                        this.applyStyle(this.cube, "transform", "translate3d(0px, 0px," + this.zOffset + "px)");
+                    }
+                    else if (this.isWebkit && !this.is2D)
+                        this.applyStyle(this.cube, "transformOrigin", "50% 50% " + this.zOffset + "px");
+                    var generateSides = !(sideArray && sideArray.length === 4);
+
+                    for (var i = 0; i < 4; i++) {
+                        var element = generateSides ? this.createElement("div", this.cube, "KF04RZ211_side") : sideArray[i];
+                        var x, z;
+                        element.rot = i * 90;
+                        if (i === 0 || i === 2) {
+                            x = 0;
+                            z = (this.width / 2);
+                        } else {
+                            x = (this.width / 2);
+                            z = 0;
+                        }
+
+                        if (i === 2 || i === 3) {
+                            x = -x;
+                            z = -z;
+                        }
+                        if (!this.isFallback) {
+                            if (this.isTrident)
+                                this.applyStyle(element, "transformOrigin", "50% 50% " + this.zOffset + "px");
+                            if (this.is2D)
+                                this.applyStyle(element, "transition", "opacity 0.2s linear");
+                            if (!this.is2D)
+                                this.applyStyle(element, "transform", "translate3d(" + x + "px, 0px, " + (z + this.zOffset) + "px) rotateY(" + element.rot + "deg)");
+                        }
+
+                        if (!generateSides) {
+                            this.cube.appendChild(element);
+                        } else {
+                            element.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+                        }
+
+                        this.sides.push(element);
+                    }
+                    if (this.isFallback) {
+                        this.setFallbackSwapInterval(this.fallbackSwapDelay);
+                        for (var i = 1; i < 4; i++) {
+                            this.sides[i].style.opacity = "0";
+                        }
+                    }
+                    if (this.is2D) {
+                        for (var i = 1; i < 4; i++) {
+                            this.sides[i].style.transition = "transform .4s linear";
+                        }
+                    }
+                    this.initialized = true;
+                    this.addEventListeners();
+                    this.rotate(0);
+                };
+
+                this.addEventListeners = function() {
+                    var element = this.touchArea;
+                    var events = window.navigator.msPointerEnabled ? ["MSPointerDown", "MSPointerMove", "MSPointerUp", "MSPointerOut"] : ["touchstart", "touchmove", "touchend", "touchcancel"];
+                    element.addEventListener(events[0], function(event) {
+                        self.touchStart(event);
+                    }, false);
+                    element.addEventListener(events[1], function(event) {
+                        self.touchMove(event);
+                    }, false);
+                    element.addEventListener(events[2], function(event) {
+                        self.touchEnd(event);
+                    }, false);
+                    if (typeof (mraid) !== 'undefined') {
+                        element.addEventListener(events[3], function(event) {
+                            self.touchEnd(event);
+                        }, false);
+                    }
+                };
+
+                this.setFallbackSwapInterval = function(delay) {
+                    if (this.fallbackSwapInterval)
+                        window.clearInterval(this.fallbackSwapInterval);
+                    this.fallbackSwapInterval = window.setInterval(function() {
+                        self.fullRotation(true);
+                    }, delay);
+
+                };
+
+                this.clearFallbackSwapInterval = function() {
+                    if (this.fallbackSwapInterval)
+                        window.clearInterval(this.fallbackSwapInterval);
+                };
+
+                /* Given a list of element ID's, these elements will not trigger the underlying onClick (Load link) function when clicked 
+                 * (this is a workaround for Internet Explorer) 
+                 * 
+                 * example: setOnClickExceptions(["p30200_smsButton", "p30200_callButton"]);*/
+                this.setOnClickExceptions = function(idList) {
+                    this.onClickExceptions = idList;
+                };
+
+                this.setLinks = function(linkList) {
+                    this.links = linkList;
+                };
+                this.setEvents = function(linkList) {
+                    this.events = linkList;
+                };
+                this.setSwipeUrl = function(url) {
+                    this.swipeUrl = url;
+                };
+
+                /* Sets which prefixes should be applied for various properties such as 3d transforms
+                 * @param {array} Array of strings containing the prefixes which should be used
+                 * Example: setSupportedPrefixes(["webkit", "ms"]). This makes the cube object apply transforms etc for -webkit and -ms */
+                this.setSupportedPrefixes = function(prefixList) {
+                    this.supportedPrefixes = prefixList;
+                };
+
+                this.onClick = function(targetID) {
+                    if (this.onClickExceptions.indexOf(targetID) > -1)
+                        return;
+                    this.sendReq(this.events[this.currentSide]);
+                    var url = this.links[this.currentSide];
+                    if (url !== null)
+                        window.open(url, "_blank");
+                };
+                this.touchStart = function(e) {
+                    this.touching = true;
+                    this.startX = window.navigator.msPointerEnabled ? e.pageX : e.touches[0].pageX;
+                    this.startY = window.navigator.msPointerEnabled ? e.pageY : e.touches[0].pageY;
+                    this.endX = 0;
+                    this.endY = 0;
+                    this.disableTransitions();
+                };
+
+                this.touchMove = function(e) {
+                    if (!this.touching)
+                        return;
+                    var x = window.navigator.msPointerEnabled ? e.pageX : e.touches[0].pageX;
+                    var y = window.navigator.msPointerEnabled ? e.pageY : e.touches[0].pageY;
+                    this.endX = x - this.startX;
+                    this.endY = y - this.startY;
+                    if (Math.abs(x - this.startX) > Math.abs(y - this.startY)) {
+                        e.preventDefault ? e.preventDefault() : e.preventManipulation();
+                        this.rotate((this.endX / this.width) * 90);
+                    }
+                };
+
+                this.touchEnd = function(e) {
+                    this.touching = false;
+                    this.enableTransitions();
+                    if (Math.abs(this.endX) > 60) {
+                        document.getElementById("KF04RZ211_swipe").style.opacity = "0.0";
+                        e.preventDefault ? e.preventDefault() : e.preventManipulation();
+                        this.fullRotation(this.endX < 0);
+                    } else {
+                        /*if (Math.abs(this.endX) <= 7 && Math.abs(this.endY) <= 7) {
+                         var target = e.target || e.srcElement;
+                         
+                         }
+                         this.rotate(0);*/
+
+                        if (typeof (mraid) === 'undefined') {
+                            if (this.isAndroid || this.isIOS) {
+                                this.rotate(0);
+                            }
+                            else {
+                                if (Math.abs(this.endX) <= 7 && Math.abs(this.endY) <= 7) {
+                                    var target = e.target || e.srcElement;
+                                    KF04RZ211Loadlink();
+                                } else {
+                                    this.rotate(0);
+                                }
+                            }
+                        }
+                        else {
+                            this.rotate(0);
+                        }
+                    }
+                };
+
+                this.rotate = function(deg) {
+                    if (!this.initialized)
+                        return;
+                    if (this.isFallback) {
+
+                        for (var i = 0; i < 4; i++) {
+                            if (this.currentSide !== i) {
+                                this.sides[i].style.opacity = "0";
+                            } else {
+                                this.sides[i].style.opacity = "1";
+                            }
+                        }
+
+                    } else if (this.isWebkit && !this.is2D) {
+                        if (this.isIOS)
+                            this.applyStyle(this.cube, "transform", "translate3d(0px, 0px," + this.zOffset + "px) rotateY(" + (this.rot + deg) + "deg)");
+                        else
+                            this.applyStyle(this.cube, "transform", "rotateY(" + (this.rot + deg) + "deg)");
+                    } else if (this.isTrident) {
+                        for (var i = 0; i < this.sides.length; i++) {
+                            this.applyStyle(this.sides[i], "transform", "rotateY(" + (this.rot + this.sides[i].rot + deg) + "deg)");
+                        }
+                    } else if (this.is2D) {
+                        var x = (deg / 90) * this.width;
+                        this.applyStyle(this.sides[this.currentSide], "transform", "translate(" + x + "px, 0px)");
+                        this.applyStyle(this.sides[(this.currentSide + 1) % 4], "transform", "translate(" + (x + this.width) + "px, 0px)");
+                        this.applyStyle(this.sides[(this.currentSide + 3) % 4], "transform", "translate(" + (x - this.width) + "px, 0px)");
+
+                        if (KF04RZ211checkIntial) {
+                            this.sides[this.currentSide].style.opacity = ((90 - deg) / 90);
+                            this.sides[(this.currentSide + 1) % 4].style.opacity = ((deg) / 90);
+                            this.sides[(this.currentSide + 3) % 4].style.opacity = ((deg - 180) / 90);
+                            this.sides[(this.currentSide + 2) % 4].style.opacity = "0.0";
+                        }
+                        KF04RZ211checkIntial = true;
+                    }
+                };
+
+                this.fullRotation = function(clockwise) {
+                    if (!this.initialized)
+                        return;
+                    this.currentSide = (this.currentSide + (clockwise ? 1 : 3)) % 4;
+                    KF04RZ211ActSide = this.currentSide;
+                    if (clockwise)
+                        this.KF04RZ211SwipeLeft();
+                    else
+                        this.KF04RZ211SwipeRight();
+
+                    this.rot += clockwise ? -90 : 90;
+                    this.rotate(0);
+                    if (this.swipeUrl !== null) {
+                        adsscore_track[('KF04RZ211').replace("p", "")].AdssSendEvent('Swipe');
+                        /*AdssSentEvent('KF04RZ211', 'Swipe');
+                         this.sendReq(this.swipeUrl);*/
+                        this.swipeUrl = null;
+                    }
+                };
+                this.fullRotationInitial = function(clockwise) {
+                    if (!this.initialized)
+                        return;
+                    this.currentSide = (this.currentSide + (clockwise ? 1 : 3)) % 4;
+                    KF04RZ211ActSide = this.currentSide;
+                    /*if (clockwise)
+                     this.KF04RZ211SwipeLeft();
+                     else
+                     this.KF04RZ211SwipeRight();
+                     */
+                    this.rot += clockwise ? -90 : 90;
+                    this.rotate(0);
+                };
+                this.sendReq = function(url) {
+                    KF04RZ211Script = document.createElement("script");
+                    KF04RZ211Script.type = "text/javascript";
+                    KF04RZ211Script.src = url;
+                    document.getElementsByTagName("head")[0].appendChild(KF04RZ211Script);
+                };
+                this.createElement = function(type, parent, className, id) {
+                    var element = document.createElement(type);
+                    element.className = className;
+                    if (id)
+                        element.id = id;
+                    parent.appendChild(element);
+                    return element;
+                };
+
+                /* Applies the given value to the CSS property to the given element for the set prefixes (can be changed with setSupportedPrefixes)
+                 * @param {element} The element on which to apply the property
+                 * @param {string} The name of the property (in lowercase)
+                 * @param {string} The value of the property (in lowercase)
+                 * Example: applyStyle(KF04RZ211AdContainer, "transform", "translate3d(0,0,0)") */
+                this.applyStyle = function(element, propertyName, value) {
+                    var propertyUC = propertyName.charAt(0).toUpperCase() + propertyName.slice(1);
+                    for (var i = 0; i < this.supportedPrefixes.length; i++) {
+                        element.style[this.supportedPrefixes[i] + propertyUC] = value;
+                    }
+                    element.style[propertyName] = value;
+                };
+
+                /* Checks wether the given CSS property is supported for the set prefixes (can be changed with setSupportedPrefixes).
+                 * Returns TRUE if the feature is supported, FALSE otherwise */
+                this.detectFeature = function(propertyName) {
+                    var propertyUC = propertyName.charAt(0).toUpperCase() + propertyName.slice(1);
+                    var element = document.createElement("div");
+
+                    if (element.style[propertyUC])
+                        return true;
+                    for (var i = 0; i < this.supportedPrefixes.length; i++) {
+                        if (element.style[this.supportedPrefixes[i] + propertyUC] !== undefined) {
+                            return true;
+                        }
+                    }
+                    return false;
+                };
+
+                this.enableTransitions = function() {
+                    if (this.isWebkit && !this.is2D) {
+                        this.applyStyle(this.cube, "transition", "all 0.4s linear");
+                    } else {
+                        for (var i = 0; i < 4; i++) {
+                            this.applyStyle(this.sides[i], "transition", "all 0.4s linear");
+                        }
+                    }
+                };
+
+                this.disableTransitions = function() {
+                    if (this.isWebkit && !this.is2D) {
+                        this.applyStyle(this.cube, "transition", "none");
+                    } else {
+                        for (var i = 0; i < 4; i++) {
+                            this.applyStyle(this.sides[i], "transition", "none");
+                        }
+                    }
+                };
+                this.KF04RZ211SwipeRight = function() {
+                    KF04RZ211ActImage = (KF04RZ211ActImage + KF04RZ211_NoOfImages - 1) % KF04RZ211_NoOfImages;
+                    var nxtImgToLoad = (KF04RZ211ActImage + KF04RZ211_NoOfImages - 1) % KF04RZ211_NoOfImages;
+                    var nxtImgToFetch = (KF04RZ211ActImage + KF04RZ211_NoOfImages - 3) % KF04RZ211_NoOfImages;
+                    if (KF04RZ211Img[nxtImgToFetch].src == "")
+                        KF04RZ211Img[nxtImgToFetch].src = "http://mds3.pliing.com/fi/img_q/sanoma/otava/150324/" + KF04RZ211_Img[nxtImgToFetch];
+                    KF04RZ211CanvasCtx[(KF04RZ211ActSide + 3) % 4].drawImage(KF04RZ211Img[nxtImgToLoad], 0, 0, 580, 580);
+                    /* document.getElementById('KF04RZ211_imp_counter').innerHTML = "<img  border='0' width='1' height='1' src='" + KF04RZ211_Imp_update[KF04RZ211ActImage] + "'/>";*/
+                };
+                this.KF04RZ211SwipeLeft = function() {
+                    KF04RZ211ActImage = (KF04RZ211ActImage + 1) % KF04RZ211_NoOfImages;
+                    var nxtImgToLoad = (KF04RZ211ActImage + 1) % KF04RZ211_NoOfImages;
+                    var nxtImgToFetch = (KF04RZ211ActImage + 3) % KF04RZ211_NoOfImages;
+                    if (KF04RZ211Img[nxtImgToFetch].src == "") {
+                        KF04RZ211Img[nxtImgToFetch].src = "http://mds3.pliing.com/fi/img_q/sanoma/otava/150324/" + KF04RZ211_Img[nxtImgToFetch];
+                    }
+                    KF04RZ211CanvasCtx[(KF04RZ211ActSide + 1) % 4].drawImage(KF04RZ211Img[nxtImgToLoad], 0, 0, 580, 580);
+                    /*document.getElementById('KF04RZ211_imp_counter').innerHTML = "<img  border='0' width='1' height='1' src='" + KF04RZ211_Imp_update[KF04RZ211ActImage] + "'/>";*/
+                };
+            }
+
+            /**</AdScript>**/
+        </script>
+        <!--</AdSanomat>-->
+    </body>
+</html>
